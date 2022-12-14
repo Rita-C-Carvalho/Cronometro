@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 640px;
+  margin: 50px auto;
+  background:transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.71);
+  color: white;
+}
+
+.container:hover{
+  box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.71);
+}
+
+.relogio{
+  font-size: 3em;
+  padding-bottom: 30px;
+}
+
+button{
+  justify-content: space-between;
+  font-size: 18px;
+  color: black;
+  border: none;
+  background-color: white;
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+
+}
+.iniciar{
+  margin-right: 10px;
+}
+
+.pausar{
+  margin-right: 10px;
+}
+
+.iniciar:hover{
+  box-shadow: 1px 1px 20px white;
+}
+
+.pausar:hover{
+  box-shadow: 1px 1px 20px white;
+}
+
+.zerar:hover{
+  box-shadow: 1px 1px 20px white;
+}
+
+.pausado{
+  color: red;
+}
